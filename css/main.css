@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+/*UTILITIES*/
+.big {
+  min-height: 700px;
+}
+
+/*HEADER*/
+header {
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+/*NAV*/
+
+.fa-search {
+  color: black;
+}
+
+.accedi {
+  border-radius: 40px;
+  color: white;
+  background-color: #363636;
+}
+/*HERO*/
+.hero {
+  background: url(../img/jumbo-bg.png);
+  min-height: 700px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.text-box {
+  color: white;
+  width: 40%;
+  height: 40%;
+}
+
+.text-box h2 {
+  padding-bottom: 20px;
+}
+.buy {
+  color: white;
+  background-color: #cd3d0f;
+  border-radius: 30px;
+  padding: 5px 7px;
+  border: none;
+}
