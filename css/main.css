@@ -9,7 +9,10 @@
 .big {
   min-height: 700px;
 }
-
+.flex {
+  display: flex;
+  align-items: flex-end;
+}
 /*HEADER*/
 header {
   background-color: black;
@@ -31,7 +34,6 @@ header {
 /*HERO*/
 .hero {
   background: url(../img/jumbo-bg.png);
-  min-height: 700px;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
