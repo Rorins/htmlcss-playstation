@@ -7,18 +7,20 @@
 
 /*UTILITIES*/
 .big {
-  min-height: 700px;
+  height: 200px;
 }
-.flex {
-  display: flex;
-  align-items: flex-end;
+
+.relative {
+  position: relative;
 }
+
 /*HEADER*/
 header {
-  background-color: black;
   color: white;
   text-align: right;
-  padding-right: 10px;
+}
+.top-nav {
+  background-color: black;
 }
 /*NAV*/
 
@@ -34,14 +36,15 @@ header {
 /*HERO*/
 .hero {
   background: url(../img/jumbo-bg.png);
-  background-position: center center;
+  min-height: 700px;
+  background-position: 0px 100px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .text-box {
   color: white;
-  width: 40%;
-  height: 40%;
+  position: absolute;
+  top: 400px;
+  width: 60%;
 }
 
 .text-box h2 {
