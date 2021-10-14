@@ -6,6 +6,7 @@
 }
 
 /*UTILITIES*/
+
 .border {
   border: 1px solid black;
 }
@@ -69,31 +70,38 @@ header {
 /*HERO*/
 .hero {
   background: url(../img/jumbo-bg.png);
-  min-height: 700px;
-  background-position: bottom;
+  height: 850px;
+  background-position: center;
   background-repeat: no-repeat;
 }
-.text-box {
+.text-hero {
   color: white;
   position: absolute;
   top: 400px;
   width: 60%;
 }
-.text-box img {
+.text-hero img {
   width: 300px;
 }
 
-.text-box h2 {
+.text-hero h2 {
   padding-bottom: 20px;
 }
 
 /*SECTON 1*/
-
 .first-section img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
+}
+.first-section .row > div {
+  padding: 10px;
+}
+
+/*SECTON 2*/
+.section-two {
+  margin-top: 100px;
 }
 .section-two h4 {
   font-size: small;
@@ -102,19 +110,53 @@ header {
 .section-two p {
   padding-top: 20px;
 }
-.first-section .row > div {
-  padding: 10px;
-}
+
 /*SECTON 3*/
 .section-three img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+.section-three {
+  margin-top: 45px;
+}
 
-/*SECTON 4*/
+/*SECTON 4
 .section-four img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+*/
+/*SECTION 4*/
+
+.box-console {
+  width: 200px;
+  height: 200px;
+}
+.box-console img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/*HERO*/
+.second-hero {
+  margin-top: 100px;
+  background: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  height: 850px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.text-second-hero {
+  color: white;
+  position: absolute;
+  top: 400px;
+  width: 60%;
+}
+.text-second-hero img {
+  width: 300px;
+}
+
+.text-second-hero h2 {
+  padding-bottom: 20px;
 }
