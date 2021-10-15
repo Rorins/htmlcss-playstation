@@ -85,6 +85,7 @@ header {
   color: white;
   background-color: #363636;
 }
+
 /*HERO*/
 .hero {
   background: url(../img/jumbo-bg.png);
@@ -243,6 +244,12 @@ header {
   background-color: #161c3b;
   color: white;
 }
+.section-eleven .container {
+  padding: 30px;
+}
+.section-eleven p {
+  padding: 10px;
+}
 .ps-now-logo {
   width: 400px;
 }
@@ -268,7 +275,7 @@ footer {
 footer li {
   list-style: none;
 }
-footer a {
+footer li a {
   color: white;
   text-decoration: none;
 }
@@ -280,9 +287,14 @@ footer .container {
 .sie-logo {
   width: 200px;
 }
-.bottom-footer p {
-  padding: 10px;
-}
+
 .country-region {
   padding-top: 30px;
+}
+
+.section-twelve .row {
+  padding: 100px;
+}
+.info {
+  color: white;
 }
