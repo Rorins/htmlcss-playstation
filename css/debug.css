@@ -72,7 +72,6 @@ header {
 .form-inline * {
   padding: 0 10px;
 }
-
 /*NAV*/
 .top-nav {
   padding: 0 1%;
@@ -125,9 +124,6 @@ header {
   font-size: small;
   color: rgb(0, 174, 255);
 }
-.section-two p {
-  padding-top: 20px;
-}
 
 /*SECTON 3*/
 .section-three img {
@@ -143,12 +139,23 @@ header {
   width: 100%;
   object-fit: cover;
 }
+.fa-trademark {
+  font-size: 10px;
+  color: gray;
+  vertical-align: 2px;
+}
+.section-four p {
+  color: gray;
+}
+.section-four p:hover {
+  color: black;
+}
 
 /*HERO*/
 .second-hero {
   margin-top: 100px;
   background: url(../img/it-takes-two-hero-banner-desktop.jpg);
-  height: 850px;
+  height: 900px;
   background-position: top;
   background-repeat: no-repeat;
 }
@@ -185,6 +192,9 @@ header {
 .section-six {
   padding: 50px 0;
 }
+.section-six h4 {
+  padding-bottom: 20px;
+}
 
 /*SECTION SEVEN*/
 .section-seven img {
@@ -201,13 +211,21 @@ header {
 .plus-logo {
   width: 400px;
 }
-
+.section-eight p {
+  padding: 10px;
+}
+.section-eight .container {
+  padding: 30px;
+}
 .plus-games {
   width: 100%;
 }
 /*SECTION 9*/
 .section-nine {
   padding: 50px 0;
+}
+.section-nine h4 {
+  padding-bottom: 20px;
 }
 /*SECTION 10*/
 .section-ten img {
@@ -216,6 +234,9 @@ header {
 }
 .section-ten {
   padding: 100px 0;
+}
+.section-ten .row div {
+  padding: 15px;
 }
 /*SECTION ELEVEN*/
 .section-eleven {
@@ -232,4 +253,36 @@ header {
 /*SECTION TWELVE*/
 .section-twelve img {
   width: 100%;
+}
+/*SECTION TWELVE*/
+.section-twelve h2 {
+  padding: 50px;
+}
+.section-twelve .container {
+  padding-bottom: 50px;
+}
+/*FOOTER*/
+footer {
+  background-color: #00439c;
+}
+footer li {
+  list-style: none;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .container {
+  padding: 80px;
+  color: white;
+}
+.sie-logo {
+  width: 200px;
+}
+.bottom-footer p {
+  padding: 10px;
+}
+.country-region {
+  padding-top: 30px;
 }
