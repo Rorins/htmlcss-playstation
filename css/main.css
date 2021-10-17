@@ -62,9 +62,7 @@
 }
 
 /*HEADER*/
-.navbar-light .navbar-nav .nav-link {
-  color: black;
-}
+
 header span {
   font-family: helvetic;
   font-weight: bold;
@@ -82,6 +80,10 @@ header {
   padding: 0 10px;
 }
 /*NAV*/
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
 .top-nav {
   padding: 0 1%;
 }
