@@ -62,6 +62,14 @@
 }
 
 /*HEADER*/
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+header span {
+  font-family: helvetic;
+  font-weight: bold;
+}
+
 header {
   color: white;
   text-align: right;
@@ -69,6 +77,7 @@ header {
 .top-nav {
   background-color: black;
 }
+
 .form-inline * {
   padding: 0 10px;
 }
@@ -215,9 +224,7 @@ header {
 .section-eight p {
   padding: 10px;
 }
-.section-eight .container {
-  padding: 30px;
-}
+
 .plus-games {
   width: 100%;
 }
@@ -263,7 +270,10 @@ header {
 }
 /*SECTION TWELVE*/
 .section-twelve h2 {
-  padding: 50px;
+  padding: 50px 0;
+}
+.section-twelve div {
+  padding: 10px;
 }
 .section-twelve .container {
   padding-bottom: 50px;
@@ -292,9 +302,6 @@ footer .container {
   padding-top: 30px;
 }
 
-.section-twelve .row {
-  padding: 100px;
-}
 .info {
   color: white;
 }
